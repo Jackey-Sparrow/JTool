@@ -1,0 +1,11 @@
+{
+  "name": "JTool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "bin": {
+    "init": "bin/test-module"
+  },
+  "author": "",
+  "license": "ISC"
+}
