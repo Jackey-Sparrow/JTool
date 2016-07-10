@@ -4,7 +4,7 @@
   "description": "",
   "main": "./lib/index.js",
   "bin": {
-    "init": "./bin/test-module"
+    "init": "./bin/test-module.js"
   },
   "author": "",
   "license": "ISC"
