@@ -6,6 +6,7 @@
   "bin": {
     "JTool": "./bin/test-module.js"
   },
+  "preferGlobal": "true",
   "author": "",
   "license": "ISC"
 }
