@@ -4,7 +4,7 @@
   "description": "",
   "main": "./lib/index.js",
   "bin": {
-    "JTool": "./bin/test-module.js"
+    "ooooo": "./bin/test-module.js"
   },
   "preferGlobal": "true",
   "author": "",
