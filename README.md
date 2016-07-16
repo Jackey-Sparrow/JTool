@@ -13,3 +13,12 @@ test global npm package
 ```
 #!/usr/bin/env node
 ```
+
+```
+"bin": {
+    "kso init": "./bin/test-module.js"
+  },
+
+bin的key实为最后指令字符串
+
+```
