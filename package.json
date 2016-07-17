@@ -4,7 +4,7 @@
   "description": "",
   "main": "./lib/index.js",
   "bin": {
-    "kso init": "./bin/test-module.js"
+    "kso-init": "./bin/test-module.js"
   },
   "preferGlobal": "true",
   "author": "",

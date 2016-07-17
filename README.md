@@ -16,7 +16,7 @@ test global npm package
 
 ```
 "bin": {
-    "kso init": "./bin/test-module.js"
+    "kso-init": "./bin/test-module.js"
   },
 
 bin的key实为最后指令字符串
