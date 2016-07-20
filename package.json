@@ -9,6 +9,7 @@
   "dependencies": {
     "optimist": "0.6.1",
     "commander": "2.9.0",
+    "shelljs": "0.7.3"
   },
   "author": "",
   "license": "ISC"
