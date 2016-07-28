@@ -17,7 +17,7 @@ test global npm package
 ```
 "bin": {
     "kso": "./bin/test-module.js"
-  },
+  }
 
 
 ```
@@ -27,5 +27,11 @@ test global npm package
 kso init
 kso -v
 kso help
+
+```
+
+### todo
+```
+kso base64 'input/' 'output'
 
 ```
