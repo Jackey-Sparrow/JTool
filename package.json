@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "kso-init": "./bin/index.js"
+    "kso": "./bin/index.js"
   },
   "preferGlobal": "true",
   "author": "",
