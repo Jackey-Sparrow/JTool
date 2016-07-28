@@ -1,5 +1,6 @@
-var sayHello = function (name) {
-    return 'hello ' + name;
-};
+#!/usr/bin/env node
 
-exports.sayHello = sayHello;
+var lib = require('./init.js');
+var greeting = lib.sayHello('Jackey');
+
+console.log(greeting);

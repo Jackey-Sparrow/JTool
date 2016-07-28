@@ -2,9 +2,8 @@
   "name": "JTool",
   "version": "1.0.0",
   "description": "",
-  "main": "./lib/index.js",
   "bin": {
-    "kso-init": "./bin/test-module.js"
+    "kso-init": "./bin/index.js"
   },
   "preferGlobal": "true",
   "author": "",
