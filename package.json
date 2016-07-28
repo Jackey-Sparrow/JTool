@@ -6,6 +6,9 @@
     "kso": "./bin/index.js"
   },
   "preferGlobal": "true",
+  "dependencies": {
+    "optimist": "0.6.1"
+  },
   "author": "",
   "license": "ISC"
 }

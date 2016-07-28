@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-var lib = require('./init.js');
-var greeting = lib.sayHello('Jackey');
+var ksoCli = require('../lib/cli');
 
-console.log(greeting);
+ksoCli.run(process.argv);
+
+
