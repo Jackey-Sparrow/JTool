@@ -1,0 +1,21 @@
+{
+  "name": "v2",
+  "version": "1.0.0",
+  "description": "```\r cd wps_help/public/v2\r gulp\r webpack -p",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node ./build/build.js",
+    "server": "node ./../../bin/front.js"
+  },
+  "devDependencies": {
+    "ora": "^0.2.3",
+    "path": "^0.12.7",
+    "shelljs": "^0.7.2",
+    "webpack": "^1.13.1"
+  },
+  "author": "",
+  "license": "KSO"
+}
