@@ -3,11 +3,10 @@ test global npm package
 
 
 ```
-"main": "./lib/index.js",
   "bin": {
-    "JTool": "./bin/test-module.js"
+    "JTool": "./bin/test-module.js" //主入口
   },
-  "preferGlobal": "true",
+  "preferGlobal": "true", //生成global cmd
 ```
 
 ```
