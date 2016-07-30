@@ -18,11 +18,48 @@
     }
 })(typeof window !== "undefined" ? window : this, ( window, noGlobal )=>{
 
-    var logger = {
-        sayHello(){
-            console.log('hi');
+    const send = Symbol('send');
+    const handle = Symbol('handle');
+    let enableRemoteSend = true;
+
+
+    class Logger {
+        constructor() {
+            this.url = '';
         }
-    };
+
+        log() {
+            this[handle]('log');
+        }
+
+        warn() {
+        }
+
+        [send](fn) {
+
+        }
+
+        [handle](fn) {
+            if (enableRemoteSend) {
+                this[send](fn);
+            }
+
+            console.log(fn);
+        }
+
+
+        closeRemoteSend() {
+            enableRemoteSend = false;
+        }
+
+        destroy() {
+            this[handle] = ()=> {
+            }
+        }
+
+    }
+
+    let logger = new Logger();
 
     if ( !noGlobal ) {
         window.logger = logger;
